@@ -78,19 +78,66 @@ header {
 
 
 .scoreboard{
-    margin-top: 200px;
+    width: 25%;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+
+
+.x-win {
+    /* border: yellow solid 3px; */
+    color: rgb(61, 243, 194);
+    font-weight: bolder;
+    background-color: rgb(209, 31, 245);
+    font-size: 25px;    
+    padding-top: 15px;
+    padding-bottom: 10px;
 
 }
+
+
+.o-win {
+    /* border: yellow solid 3px; */
+    color: rgb(61, 243, 194);
+    font-weight: bolder;
+    background-color: rgb(209, 31, 245);
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.player-x-score {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(221, 91, 247);
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.player-o-score {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(221, 91, 247);
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
 
 
 #winMessage {
     font-size: 20px;
     font-weight: bold;
-    color: rgb(90, 141, 236);
+    color: rgb(28, 123, 247);
     width: 100%;
     margin-top: 50px;
     display: flex;
